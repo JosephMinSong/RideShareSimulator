@@ -67,3 +67,29 @@
     </ul>
   </li>
 </ul>
+
+<h2 align="left">Sample Analysis and Output</h2>
+
+<div align="center"> 
+  <p>User Inputted Variables - Number of riders, Number of drivers, start and end time: </p>
+  <div>
+    <img src="https://github.com/user-attachments/assets/78711d89-c25f-4922-8aef-8e6366d7464a" />
+  </div>
+</div>
+
+<div align="center"> 
+  <p>Average wait time and number of drives a driver has completed: </p>
+  <div>
+    <img src="https://github.com/user-attachments/assets/1ecf7373-7567-4c36-b81e-717f0ec954a0" />
+  </div>
+</div>
+
+<div align="center"> 
+  <p>Sample result CSV file and analysis: </p>
+  <div>
+    <img src="https://github.com/user-attachments/assets/7f36706c-2cd1-4f50-9b91-0726d9d5e7df" />
+  </div>
+</div>
+
+
+
