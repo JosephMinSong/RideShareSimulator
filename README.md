@@ -30,7 +30,7 @@
       </li>
     </ul>
   </li>
-    <li>
+  <li>
     <p>Priority Status Assignments:</p>
     <p>Each ride is assigned a random priority status based on pre-defined criteria</p>
     <ul>
@@ -38,7 +38,31 @@
         <b>Express Pick-Up: </b> High-priority pick-up rides with the goal of minimizing wait time
       </li>
       <li>
-        Each ride request includes a timestamp for when the ride was requested, when the rider was picked up, and how long the rider had been waiting to be picked up
+        <b>Standard Pick-up: </b> Regular rides with no special requirements
+      </li>
+      <li>
+        <b>Wait-and-Save Pick-Up: </b> Lower priority rides that may affect wait times 
+      </li>
+      <li>
+        <b>Environmental Pick-Up: </b> Low priority rides with extended wait times in case there are other riders in the area who are requesting pick-up
+      </li>
+    </ul>
+  </li>
+<li>
+    <p>Detailed Output and Analysis:</p>
+    <p>The simulation outputs an extensive CSV file containing the following data points:</p>
+    <ul>
+      <li>
+        <b>User Request Time: </b> The time when the rider had requested a ride
+      </li>
+      <li>
+        <b>User Pick-Up Time: </b> The time when the rider was picked up by the driver
+      </li>
+      <li>
+        <b>Wait Time: </b> The duration the rider waited between the request and the pick-up
+      </li>
+      <li>
+        <b>Priority Status: </b> The assigned priority the user had chosen for their ride
       </li>
     </ul>
   </li>
